@@ -5,7 +5,14 @@
 # }
 
 def happy_birthday(birthday_kids)
-  # add your code snippet here!
+ birthday_kids.each do |name,age|
+   if name[0]= "A"
+      puts " hey #{name}, your are the winner"
+      
+    else
+      puts "sorry , you are not winner"
+     
+ end
 end
 
 

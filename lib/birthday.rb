@@ -1,18 +1,17 @@
-# birthday_kids = {
-#   "Timmy" => 9, 
-#   "Sarah" => 6, 
-#   "Amanda" => 27
-# }
 
+birthday_kids = {
+   "Timmy" => 9, 
+   "Sarah" => 6, 
+   "Amanda" => 27
+ }
+ 
 def happy_birthday(birthday_kids)
+  
  birthday_kids.each do |name,age|
-   if name[0]= "A"
-      puts " hey #{name}, your are the winner"
-      
-    else
-      puts "sorry , you are not winner"
-     
+    if name.start_with?("A")
+      puts "The winneris #{name}"     
+    end
+  end
  end
-end
-
+ happy_birthday(birthday_kids)
 

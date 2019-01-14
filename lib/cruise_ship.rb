@@ -16,3 +16,4 @@ end
  
 winner
 end
+select_winner(passengers)
